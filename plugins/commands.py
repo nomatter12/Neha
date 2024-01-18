@@ -30,8 +30,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url="https://t.me/+sJOCf7vp4sdhM2Vl"),
-                    InlineKeyboardButton('🎬 channel', url='https://t.me/+Fxa4IrH6obY4MWFl')
+                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url="https://t.me/+Jpiz-WX76lMzYjJl"),
+                    InlineKeyboardButton('🎬 channel', url='https://t.me/+nvmpM5XeI9I0NTk1')
                 ],[
                     InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='CHNL_LNK')
                   ]]
@@ -59,7 +59,7 @@ async def start(client, message):
                     InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='JoinUᴘᴅᴀᴛᴇs')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgQAAxkBAAJITmV9o8jwlk2sFkYen13yUB9KRftDAAL2EAACULvgU8SbYPGo146YHgQ") 
+        m=await message.reply_sticker("CAACAgIAAxkBAAKFOWWpBadaHBCRO1eEUlXM7OTaRYaHAAKjAQACEBptIkfOxfML2NdjHgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
