@@ -1,4 +1,4 @@
-# Don't Remove Credit @movie_file_20
+l# Don't Remove Credit @movie_file_20
 # Subscribe YouTube Channel For Amazing Bot @movie_file_20
 # Ask Doubt on telegram @KingVJ01
 
@@ -160,8 +160,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Jisshu_support'),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/JISSHU_BOTS')
+                                InlineKeyboardButton('Owner', url=f'https://t.me/WOLVERIN_P'),
+                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/+nvmpM5XeI9I0NTk1')
                             ],[
                                 InlineKeyboardButton('🚀 Fast Download/Watch Online 🖥', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr 
                             ]
@@ -179,8 +179,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Jisshu_support'),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/JISSHU_BOTS')
+                                InlineKeyboardButton('Owner', url=f'https://t.me/WOLVERIN_P'),
+                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/+Jpiz-WX76lMzYjJl')
                             ],[
                                InlineKeyboardButton('🚀 Fast Download/Watch Online 🖥', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
@@ -336,8 +336,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/Jisshu_support'),
-                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/JISSHU_BOTS')
+                         InlineKeyboardButton('Owner', url=f'https://t.me/WOLVERIN_P'),
+                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/+Jpiz-WX76lMzYjJl')
                       ],[
                          InlineKeyboardButton('🚀 Fast Download/Watch Online 🖥', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                       
