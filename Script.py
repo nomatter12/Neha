@@ -220,7 +220,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """<b>{file_name}
 
-<b>💢 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ : <a href='https://t.me/MAP_Originals_Backup'>𝗠𝗔𝗣 𝗕𝗮𝗰𝗸𝘂𝗽</a></b>""" 
+<b>💢 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ : <a href='https://t.me/+Jpiz-WX76lMzYjJl'>WOLVERIN</a></b>""" 
 
     IMDB_TEMPLATE_TXT = """
 IMDb Data:
