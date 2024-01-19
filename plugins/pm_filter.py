@@ -1334,11 +1334,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🫵 SUBSCRIBE 🫵', url="https://youtube.com/@JISSHU-BOTS"),
         ],[
-            InlineKeyboardButton('🍀 Movie Search Group 🍀', url="https://t.me/+ZjmlLeuGGak5Yjhl")
+            InlineKeyboardButton('🍀 Movie Search Group 🍀', url="https://t.me/+Jpiz-WX76lMzYjJl")
         ],[
-            InlineKeyboardButton('🍂 Movie channel 🍂', url="https://t.me/+Fxa4IrH6obY4MWFl")
+            InlineKeyboardButton('🍂 Movie channel 🍂', url="https://t.me/+nvmpM5XeI9I0NTk1")
         ],[
-            InlineKeyboardButton('🍁 Bots Update Channel 🍁', url="https://t.me/JISSHU_BOTS")
+            InlineKeyboardButton('🍁 Bots Update 🍁', url="https://t.me/WOLVERIN_P")
         ],[
             InlineKeyboardButton('🥀 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🥀', url=GRP_LNK),
         ],[
