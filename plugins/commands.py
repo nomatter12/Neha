@@ -460,7 +460,7 @@ async def start(client, message):
             [
              [
                InlineKeyboardButton('Owner😎', url=f'https://t.me/WOLVERIN_P'),
-               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/WOLVERIN_P')
+               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/+nvmpM5XeI9I0NTk1')
              ],[
               InlineKeyboardButton('🚀 Fast Download/Watch Online 🖥', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ]
