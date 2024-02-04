@@ -2015,7 +2015,7 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m=await message.reply_sticker("CAACAgQAAxkBAAImNGW0oSqXZcx7wtT3ig0a574AAQcTmQACaBAAAt37aFGUxxzGbZe9FB4E")
+            m=await message.reply_sticker("CAACAgIAAxkBAAIrb2W_g_M-kuQBV5k-wIQwxCqjuuBqAAJ5CQACyXVoSf_ZSAwfzXmrHgQ")
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -2044,7 +2044,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m=await message.reply_sticker("CAACAgQAAxkBAAImNGW0oSqXZcx7wtT3ig0a574AAQcTmQACaBAAAt37aFGUxxzGbZe9FB4E")
+        m=await message.reply_sticker("CAACAgIAAxkBAAIrb2W_g_M-kuQBV5k-wIQwxCqjuuBqAAJ5CQACyXVoSf_ZSAwfzXmrHgQ")
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
@@ -2052,7 +2052,7 @@ async def auto_filter(client, msg, spoll=False):
     FRESH[key] = search
     temp.GETALL[key] = files
     temp.SHORT[message.from_user.id] = message.chat.id
-    if settings["button"]:
+    if settings["button it"]:
         btn = [
             [
                 InlineKeyboardButton(
@@ -2174,7 +2174,7 @@ async def auto_filter(client, msg, spoll=False):
             try:
                if settings['auto_delete']:
                     await asyncio.sleep(300)
-                    m=await message.reply_sticker("CAACAgQAAxkBAAImNGW0oSqXZcx7wtT3ig0a574AAQcTmQACaBAAAt37aFGUxxzGbZe9FB4E")
+                    m=await message.reply_sticker("CAACAgUAAxkBAAIra2W_g0xxX6TVi2D-4PUHhw8e2t-3AAI3AANQMowVQYA9pnnAPXseBA")
                     await hmm.delete()
                     await message.delete()
             except KeyError:
@@ -2184,7 +2184,7 @@ async def auto_filter(client, msg, spoll=False):
                 await message.delete()
         except Exception as e:
             logger.exception(e)
-            m=await message.reply_sticker("CAACAgQAAxkBAAImNGW0oSqXZcx7wtT3ig0a574AAQcTmQACaBAAAt37aFGUxxzGbZe9FB4E") 
+            m=await message.reply_sticker("CAACAgUAAxkBAAIra2W_g0xxX6TVi2D-4PUHhw8e2t-3AAI3AANQMowVQYA9pnnAPXseBA") 
             fek = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
             await m.delete()
             try:
